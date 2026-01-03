@@ -18,13 +18,19 @@ Use the following command to run.
 ```bash
 make run
 ```
-Output:
+Output:  
+```
+Entered Parent Process  
+Entered Parent Process(again)   
+Entered Child Process   
+README.md  makefile  using_fork	 using_fork.c  
+Child Complete
+```
 
-Entered Parent Process 
-Entered Parent Process(again) 
-Entered Child Process 
-README.md  makefile  using_fork	 using_fork.c
-Child Complete 
+Note: After Exec() doesnt print as execlp() replaces the current process with ls.
 
+##References 
 
-When u execlp() the current process.
+https://www.man7.org/linux/man-pages/man2/fork.2.html  
+https://linux.die.net/man/3/execlp  
+https://www.man7.org/linux/man-pages/man2/wait.2.html  
