@@ -23,3 +23,6 @@ $(TARGET): $(SRC)
 clean:
 	rm -f $(TARGET)
 
+run:
+	./using_fork
+
