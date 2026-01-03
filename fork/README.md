@@ -28,3 +28,7 @@ Child Complete
 
 
 When u execlp() the current process.
+
+##References 
+https://www.man7.org/linux/man-pages/man2/fork.2.html
+https://linux.die.net/man/3/execlp
