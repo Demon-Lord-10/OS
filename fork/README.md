@@ -29,7 +29,7 @@ Child Complete
 
 Note: After Exec() doesnt print as execlp() replaces the current process with ls.
 
-##References 
+## References 
 
 https://www.man7.org/linux/man-pages/man2/fork.2.html  
 https://linux.die.net/man/3/execlp  
