@@ -39,7 +39,7 @@ This project reimplements fundamental Unix commands from scratch using system ca
 ### Process and System Information
 - [proc(5) - Linux Manual Page](https://www.man7.org/linux/man-pages/man5/proc.5.html)  
 - [execlp(3) - Linux Man Page](https://linux.die.net/man/3/execlp)  
-
+- [stat(2) - Linux Man Page](https://www.man7.org/linux/man-pages/man2/stat.2.html)
 ### C Standard Library
 - [strstr() - C String Function Reference](https://en.cppreference.com/w/c/string/byte/strstr)  
 
